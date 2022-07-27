@@ -20,8 +20,8 @@ class _NovelPageState extends State<NovelPage> {
   List<List<String>> commentData= [];
   List<List<String>> commentatorDataList= [[]];
   String dataOnDebug= '';
-  bool fixedLoading=true;
-  bool loading=true;
+  bool fixedLoading= true;
+  bool loading= true;
   bool authorLoading=true;
   bool novelDataHasBeenLoadedFromNetwork= false;
   bool commentLoading= true;
