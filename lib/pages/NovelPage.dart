@@ -22,7 +22,7 @@ class _NovelPageState extends State<NovelPage> {
   String dataOnDebug= '';
   bool fixedLoading= true;
   bool loading= true;
-  bool authorLoading=true;
+  bool authorLoading= true;
   bool novelDataHasBeenLoadedFromNetwork= false;
   bool commentLoading= true;
   bool isThereAnyComment= true;
