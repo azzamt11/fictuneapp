@@ -276,7 +276,7 @@ class NetworkHandler {
   }
 
   Future<List<String>> getUser(String token, String userId) async{
-    var response = await http.get(Uri.parse("http://ftunebackend.herokuapp.com/api/getuser/$userId"),
+    var response = await http.post(Uri.parse("http://ftunebackend.herokuapp.com/api/getuser/$userId"),
         headers: {
           "Content-type": "application/json",
           "Authorization": "Bearer $token"
